@@ -18,7 +18,7 @@ import static fares.lambda.java.Constants.*;
  * Its job is to call the analytics API and save the response a json file in S3,
  * so it can be read by the analytics Glue jobs
  */
-public class HelloWorld implements RequestHandler {
+public class TarnibAnalyticsJsonExtractorHandler implements RequestHandler {
     /**
      * This is what gets executed when the lambda is invoked.
      */
